@@ -12,24 +12,24 @@ class App extends Component {
 			newData: [],
 		}
 	}
-  toggleHandler= (e)=> {
-  this.setState({
-    newData: this.state.newData.map((el)=> {
-      if(el.id){
-        el.completed = !el.completed
-      }
-      return el
-    })
-  })
-  }
+	toggleHandler = (e) => {
+		this.setState({
+			newData: this.state.newData.map((el) => {
+				if (el.id) {
+					el.completed = !el.completed
+				}
+				return el
+			}),
+		})
+	}
 	deleteHandler = (e) => {
 		this.setState({
 			newData: this.state.newData.filter((el) => el.id !== e.target.id),
 		})
 	}
-  deleteAllHandler=(e)=>{
-    this.setState({ newData: this.state.newData.filter((el)=> el !==el)})
-  }
+	deleteAllHandler = (e) => {
+		this.setState({ newData: this.state.newData.filter((el) => el !== el) })
+	}
 	checboxHandler = (e) => {
 		this.setState({
 			newData: this.state.newData.map((el) => {
@@ -45,8 +45,8 @@ class App extends Component {
 			<div className='App'>
 				<Todo onData={this.dataHandler} />
 				<TodoList
-        deleteAllHandler={this.deleteAllHandler}
-        toggleHandler={this.toggleHandler}
+					deleteAllHandler={this.deleteAllHandler}
+					toggleHandler={this.toggleHandler}
 					checboxHandler={this.checboxHandler}
 					deleteHandler={this.deleteHandler}
 					data={this.state.newData}
