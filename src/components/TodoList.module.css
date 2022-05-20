@@ -1,0 +1,80 @@
+.content {
+	position: relative;
+
+	width: 390px;
+}
+.block {
+	display: flex;
+	margin: 20px;
+	list-style: none;
+	border: 1px solid #ccc;
+	margin: 10px 0;
+	padding: 10px;
+	margin-left: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: capitalize;
+}
+.block h5 {
+	margin-top: 19px;
+}
+.block p {
+	margin-left: 14px;
+}
+.done {
+	text-decoration: line-thbetweenrough;
+	list-style: none;
+	opacity: 0.5;
+	display: flex;
+	justify-content: space-;
+}
+.task {
+	display: flex;
+	justify-content: space-between;
+
+	list-style: none;
+}
+.checkbox {
+	margin-right: 5px;
+	transform: translateY(1px);
+	margin-top: 19px;
+}
+.btn {
+	border: none;
+	outline: none;
+	color: white;
+	background: orange;
+	padding: 0px 15px;
+	cursor: pointer;
+	margin: 17px;
+	margin-left: 10px;
+}
+.all {
+	margin-left: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.all h4 {
+	margin-top: 17px;
+	text-align: center;
+	text-decoration: uppercase;
+	letter-spacing: 2px;
+	font-weight: 900;
+	color: #666;
+}
+.btnbtn {
+	border: none;
+	outline: none;
+	color: white;
+	background: #555;
+	padding: 0px 15px;
+	cursor: pointer;
+	margin: 17px;
+	margin-left: 10px;
+	padding: 5px;
+    text-align: center;
+	text-decoration: uppercase;
+	letter-spacing: 2px;
+	font-weight: 900;	
+}

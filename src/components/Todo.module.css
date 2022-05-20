@@ -1,0 +1,31 @@
+
+.forma h2 {
+    text-align: center;
+    text-decoration: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: #666;
+
+}
+form input,
+form button{
+    
+flex: 3;
+border: none;
+outline: none;
+border-bottom: 1px solid #555;
+margin: 0 5px;
+}
+form button {
+    flex: 1;
+    background: #555;
+   color: white; 
+   letter-spacing: 2px;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: uppercase;
+   letter-spacing: 2px;
+   font-weight: 900;
+ 
+
+}
